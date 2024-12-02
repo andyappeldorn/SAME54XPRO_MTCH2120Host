@@ -1,0 +1,52 @@
+# .gitignore created for MPLAB X projects
+# created by: Andy Appeldorn
+
+# NetBeans directories
+html/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+funclist
+
+# MPLAB X directories - not needed for portability
+**/nbproject/private/
+**/.generated_files/
+**/nbproject/Makefile-*
+**/nbproject/Package-default.bash
+
+# Build Directories
+[Dd]ebug/
+[Bb]uild/
+[Dd]ist/
+[Dd]isassembly/
+
+# Intermediate Build Files
+*.d
+*.pre
+*.p1
+*.lst
+*.sym
+*.obj
+*.o
+*.sdb
+*.obj.dmp
+*.map
+
+# MCC System and Backup Files
+*.c.bak
+*.h.bak
+*.bak*
+*.mc3.bak*
+defmplabxtrace.log*
+**/queuelogs/
+
+# Secure directory - not tracked in version control
+[Ss]ecure/
+
+# ignore copy of demo project
+1559_level_sense_app.X/
+MTCH2120_EA_Package/
+.generated-cmakefiles/
+.vscode/
+_build_mplab/
