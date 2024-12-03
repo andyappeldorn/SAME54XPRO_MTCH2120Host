@@ -797,7 +797,7 @@ void UART_Write(uint8_t data)
 {
     static uint8_t txData;
     txData = data;
-    (void)SERCOM0_USART_Write(&txData, 1);
+    (void)SERCOM2_USART_Write(&txData, 1);
 }
 
 void uart_send_data_wait(uint8_t data)
@@ -1421,15 +1421,15 @@ void touchUartRxComplete(uintptr_t lTouchUart)
     {
         read_buf_write_ptr = 0u;
     }
-    (void)SERCOM0_USART_Read((void *)&rxData, 1);
+    (void)SERCOM2_USART_Read((void *)&rxData, 1);
 }
 
 void touchTuneInit(void)
 {
-    SERCOM0_USART_ReadCallbackRegister(touchUartRxComplete, touchUart);
-    SERCOM0_USART_WriteCallbackRegister(touchUartTxComplete, touchUart);
+    SERCOM2_USART_ReadCallbackRegister(touchUartRxComplete, touchUart);
+    SERCOM2_USART_WriteCallbackRegister(touchUartTxComplete, touchUart);
 
-    (void)SERCOM0_USART_Read((void *)&rxData, 1);
+    (void)SERCOM2_USART_Read((void *)&rxData, 1);
 }
 
 uint8_t isStopToReadDebugData(void)

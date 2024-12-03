@@ -31,8 +31,8 @@
                 <itemPath>../src/config/default/peripheral/sercom/i2c_master/plib_sercom3_i2c_master.h</itemPath>
               </logicalFolder>
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom2_usart.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -231,7 +231,7 @@
                 <itemPath>../src/config/default/peripheral/sercom/i2c_master/plib_sercom3_i2c_master.c</itemPath>
               </logicalFolder>
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
+                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom2_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>

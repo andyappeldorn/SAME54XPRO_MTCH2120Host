@@ -76,8 +76,8 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 95,PA25,,Available,,,,,,NORMAL
 98,PB22,,Available,,,,,,NORMAL
 99,PB23,,Available,,,,,,NORMAL
-100,PB24,,Available,,,,,,NORMAL
-101,PB25,,Available,,,,,,NORMAL
+100,PB24,,SERCOM2_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+101,PB25,,SERCOM2_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
 102,PB26,,Available,,,,,,NORMAL
 103,PB27,,Available,,,,,,NORMAL
 104,PB28,,Available,,,,,,NORMAL
