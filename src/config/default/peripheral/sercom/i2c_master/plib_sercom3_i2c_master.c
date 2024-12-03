@@ -59,10 +59,10 @@
 // *****************************************************************************
 
 
-#define SERCOM3_I2CM_SPEED_HZ           100000
+#define SERCOM3_I2CM_SPEED_HZ           400000
 
 /* SERCOM3 I2C baud value */
-#define SERCOM3_I2CM_BAUD_VALUE         (0xFFU)
+#define SERCOM3_I2CM_BAUD_VALUE         (0x592CU)
 
 
 volatile static SERCOM_I2C_OBJ sercom3I2CObj;
@@ -98,7 +98,7 @@ void SERCOM3_I2C_Initialize(void)
     SERCOM3_REGS->I2CM.SERCOM_BAUD = SERCOM3_I2CM_BAUD_VALUE;
 
     /* Set Operation Mode (Master), SDA Hold time, run in stand by and i2c master enable */
-    SERCOM3_REGS->I2CM.SERCOM_CTRLA = SERCOM_I2CM_CTRLA_MODE_I2C_MASTER | SERCOM_I2CM_CTRLA_SDAHOLD_75NS | SERCOM_I2CM_CTRLA_SPEED_STANDARD_AND_FAST_MODE | SERCOM_I2CM_CTRLA_SCLSM(0UL) | SERCOM_I2CM_CTRLA_ENABLE_Msk ;
+    SERCOM3_REGS->I2CM.SERCOM_CTRLA = SERCOM_I2CM_CTRLA_MODE_I2C_MASTER | SERCOM_I2CM_CTRLA_SDAHOLD_75NS | SERCOM_I2CM_CTRLA_SPEED_FASTPLUS_MODE | SERCOM_I2CM_CTRLA_SCLSM(0UL) | SERCOM_I2CM_CTRLA_ENABLE_Msk ;
 
     /* Wait for synchronization */
     while((SERCOM3_REGS->I2CM.SERCOM_SYNCBUSY) != 0U)

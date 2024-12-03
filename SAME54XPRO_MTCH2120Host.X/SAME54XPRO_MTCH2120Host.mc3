@@ -3210,7 +3210,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2CM_BAUD&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;255&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;22828&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
@@ -3229,7 +3229,14 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom3" name="I2CM_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2CM_MODE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
 </value>
@@ -3427,7 +3434,17 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom3" name="I2C_CLOCK_SPEED"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2C_CLOCK_SPEED&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Integer dnOrder=&quot;0&quot; id=&quot;max&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;1000&lt;/Value&gt;
+      &lt;/Integer&gt;
+      &lt;Boolean dnOrder=&quot;1&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;400&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
 </value>
@@ -3436,7 +3453,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom3" name="I2C_CLOCK_SPEED_HZ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2C_CLOCK_SPEED_HZ&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;400000&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
 </value>
@@ -3481,7 +3500,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom3" name="I2C_SCLSM"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2C_SCLSM&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
 </value>
@@ -4817,7 +4838,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\sercom\i2c_master\plib_sercom3_i2c_master.c</file>
-         <hash>73c8e9d76e14c6cdc6f89e2146396239e541a3ce1c45b34e4a89d4d2c52aa4ab</hash>
+         <hash>4a18002bff995bed37f45b910c9ceda8834fef13d1e7eb2cd634c9b5b7cc0257</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\sercom\i2c_master\plib_sercom3_i2c_master.h</file>
