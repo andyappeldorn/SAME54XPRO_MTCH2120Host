@@ -29,6 +29,8 @@
 
 #include "config/default/touch_host_interface/mtch2120_host_example.h"
 
+#include "touch_UI.h"
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Main Entry Point
@@ -45,6 +47,7 @@ int main ( void )
     while ( true )
     {
         touch_mainloop_example();
+        
         /* Maintain state machines of all polled MPLAB Harmony modules. */
 //        SYS_Tasks ( );
     }
