@@ -12,7 +12,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 13,PD00,,Available,,,,,,NORMAL
 16,PD01,,Available,,,,,,NORMAL
 17,PB06,,Available,,,,,,NORMAL
-18,PB07,MTCH_INT,GPIO,Digital,In,n/a,No,No,NORMAL
+18,PB07,MTCH_INT,GPIO,Digital,In,n/a,Yes,No,NORMAL
 19,PB08,,Available,,,,,,NORMAL
 20,PB09,,Available,,,,,,NORMAL
 21,PA04,,SERCOM0_PAD0,Digital,High Impedance,n/a,No,No,NORMAL

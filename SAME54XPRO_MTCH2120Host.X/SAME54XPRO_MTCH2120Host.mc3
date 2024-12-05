@@ -46,7 +46,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;471&quot; canvasWidth=&quot;773&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;GraphSettings canvasHeight=&quot;493&quot; canvasWidth=&quot;773&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;PowerProfiles dnOrder=&quot;1&quot;&gt;
       &lt;Profile dnOrder=&quot;0&quot; id=&quot;profile0&quot; name=&quot;Main&quot;/&gt;
     &lt;/PowerProfiles&gt;
@@ -57,9 +57,9 @@
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;dfp&quot; x=&quot;340&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;evsys&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;nvmctrl&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;sercom2&quot; x=&quot;94&quot; y=&quot;293&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;sercom2&quot; x=&quot;97&quot; y=&quot;293&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;sercom3&quot; x=&quot;105&quot; y=&quot;381&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;touch_turnkey&quot; x=&quot;320&quot; y=&quot;335&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;touch_turnkey&quot; x=&quot;321&quot; y=&quot;334&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -745,6 +745,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_DRVSTR"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_DRVSTR&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_FUNCTION_NAME"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_FUNCTION_NAME&quot;&gt;
@@ -778,6 +789,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_LAT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_LAT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;High&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_MODE&quot;&gt;
@@ -804,7 +826,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_PULLEN&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;True&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1243,7 +1265,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_1_OUT&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x80&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1331,7 +1353,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_1_PINCFG7&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x2&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x6&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4754,7 +4776,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>ec316c23479ba6d12d0b59f0dddddb6e6dc311ef581fe4abc95ca9c71b855385</hash>
+         <hash>d527c5a0edef053470694bd2d7ea0c2551721dfc2980755a5bfa33cb940a055a</hash>
       </entry>
       <entry>
          <file>..\src\config\default\device.h</file>
@@ -4830,7 +4852,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\port\plib_port.c</file>
-         <hash>e0b6a5e630b5cec46aab32694e75ae7cdc6fe9e09f43413dfdff8238bc5da028</hash>
+         <hash>80dd9405ff909c54ede3b1600a14b60cfb8e1f52d965b086e71bdbf49542d6e4</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\port\plib_port.h</file>
@@ -4862,7 +4884,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\pin_configurations.csv</file>
-         <hash>1151d2ff3a1033ee8eb3f338db9b60510183cb9dd03df7b859a2b3a6197b00ca</hash>
+         <hash>538efd64a94b0a132d4258bc85a0c583fdaa9ad1a8299ea24d259a46b5d545e7</hash>
       </entry>
       <entry>
          <file>..\src\config\default\startup_xc32.c</file>
